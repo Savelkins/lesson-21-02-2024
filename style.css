@@ -1,6 +1,9 @@
-body {
+body,
+p {
   font-family: "Roboto Condensed";
   font-weight: 300;
+  font-size: 21px;
+  line-height: 1.57;
 }
 
 .center {
@@ -13,6 +16,29 @@ a {
 .yellow {
   color: #ffa400;
 }
+.big-font {
+  font-size: 36px;
+}
 .left {
   text-align: left;
+}
+.italic {
+  font-style: italic;
+}
+.recept {
+  width: 60%;
+  margin: auto;
+}
+.main-title {
+  height: 512px;
+
+  background-color: #0691d7;
+  background-image: url(./assets/images/61cc1ba5608b6.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #fff;
+  font-size: 48px;
+  letter-spacing: 5px;
 }
